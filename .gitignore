@@ -1,0 +1,20 @@
+# OS / editor / Python cruft
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large data products, kept locally only
+csvs/
+*.npy
+*.zip
+
+# Original notebooks: several are >100 MB with embedded outputs (too big for GitHub).
+# Their code is tracked as .py exports in ipynbs/ipynbs_2_pys/.
+ipynbs/ipynbs_og/
+
+# Figures
+*.png
+
+# Old copies and figures
+archive/
